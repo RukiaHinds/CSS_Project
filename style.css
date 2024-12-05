@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+min-height: 100vh;
+width: 100vw;
+display: flex;
+}
+
+#left-content {
+min-height: 100%;
+background-color: olive;
+width: 20%;
+}
+#Icon {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* width: 50px;
+  height: 50px; */
+  /* position: left; */
+}
+.round-button {
+  width: px;
+  height: px;
+  border-radius: 10%;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 75px;
+  margin: 10px;
+  /* font-style: normal; */
+  font-family: Georgia, 'Times New Roman', Times, serif
+  
+}
+.round-button:hover {
+  background-color: gray;
+}
+ol {
+  text-align: left;
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wide-spacing {
+  line-height: 2;
+}
+
+#middle-content {
+  min-height: 100%;
+  background-color: lightgrey;
+  width: 35%;
+}
+#right-content {
+  min-height: 100%;
+  background-color: lightgrey;
+  width: 45%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    /* width: 200px; */
+   
+    align-content: left;
+    /* display: grid; */
+  }
+  
+ 
+
+  p {
+    text-align: left;
+    color:black;
+  }
+.row2 {
+    margin: 0;
+    padding: 0;
+    /* width: 300px; */
+    /* background-color: lightgrey; */
+    /* position: ; */
+    height: 100%; 
+    /* display: grid;
+    flex-wrap: wrap; */
+}
+.row3 {
+  margin: 0;
+  padding: 00;
+  /* width: 300px; */
+  background-color: lightgoldenrodyellow;
+  /* position: ; */
+  height: 100%;
+  /* display:grid;
+  flex-wrap: wrap; */
+}
+textarea {
+  /* width: 100px;
+  height: 100px; */
+}
+
+@media screen and (max-width:769px) {
+  /* width: 550px; */
+  body {
+flex-direction: column;
+  }
+}
